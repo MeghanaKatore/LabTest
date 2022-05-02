@@ -1,0 +1,38 @@
+Java IO 
+-----streams--------
+in 
+out 
+err
+
+program -------------> console /db /file /network 
+
+program <------------ console /db /file/ network 
+
+==================================
+1) import java.io.*;
+2) IOException --> checked exception 
+    FileNotFoundException 
+
+3) Byte 
+    Character
+              
+
+====4 Abstract classes 
+
+1) InputStream 
+           FileInputStream 
+           ByteArrayInputStream
+          BufferedInputStream
+2)OutputStream
+  
+          FileOutputStream
+          ByteArrayOutputStream
+          BufferedOutputStream
+3) Reader
+ 
+          FileReader
+          CharacterArrayReader
+          BufferedReader
+4) Writer
+         FileWriter
+         CharacterArrayWriter
